@@ -25,7 +25,7 @@ public class RootConfig {
 		hikariConfig.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
 		hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
 		hikariConfig.setUsername("book_ex");
-		hikariConfig.setPassword("BOOK_EX");
+		hikariConfig.setPassword("book_ex");
 
 		HikariDataSource dataSource = new HikariDataSource(hikariConfig);
 
